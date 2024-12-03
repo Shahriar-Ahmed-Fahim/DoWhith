@@ -657,10 +657,11 @@ Counter End
 }
 
 /* ==================pricing start here=============== */
-#pricing{
+#pricing {
     margin-bottom: 100px;
 }
-.pricing_title{
+
+.pricing_title {
     color: #192252;
     font-size: 52px;
     font-style: normal;
@@ -668,7 +669,8 @@ Counter End
     line-height: normal;
     text-align: center;
 }
-.pricing_subtitle{
+
+.pricing_subtitle {
     color: #848FAC;
     font-size: 18px;
     font-style: normal;
@@ -677,19 +679,22 @@ Counter End
     text-align: center;
     margin-top: 24px;
 }
-.price_wrapper{
+
+.price_wrapper {
     display: flex;
     gap: 80px;
     margin-top: 64px;
     justify-content: center;
 }
-.package_main{
+
+.package_main {
     width: 515px;
     display: flex;
     flex-direction: column;
     row-gap: 24px;
 }
-.package_item{
+
+.package_item {
     padding: 24px;
     border: 1.5px solid #EFF3FA;
     border-radius: 16px;
@@ -698,21 +703,25 @@ Counter End
     align-items: center;
     transition: all linear 0.3s;
 }
-.package_item:hover{
+
+.package_item:hover {
     background-color: #6245D5;
     border: 1.5px solid #6245D5;
 }
-.package_input{
+
+.package_input {
     width: 24px;
     height: 24px;
 }
-.package_details{
+
+.package_details {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-.package_text h4{
+
+.package_text h4 {
     color: #192252;
     font-size: 20px;
     font-style: normal;
@@ -720,14 +729,17 @@ Counter End
     line-height: normal;
     transition: all linear 0.3s;
 }
-.package_item:hover h4{
+
+.package_item:hover h4 {
     color: #FFFFFF;
 }
-.package_name{
+
+.package_name {
     display: flex;
     gap: 8px;
 }
-.badge{
+
+.badge {
     padding: 4px 12px;
     border-radius: 11px;
     background-color: rgba(33, 150, 83, 0.08);
@@ -738,10 +750,12 @@ Counter End
     font-weight: 600;
     line-height: normal;
 }
-.package_item:hover .badge{
+
+.package_item:hover .badge {
     color: #FFFFFFCC;
 }
-.package_text p{
+
+.package_text p {
     color: #848FAC;
     width: 236px;
     font-size: 16px;
@@ -751,10 +765,12 @@ Counter End
     margin-top: 8px;
     transition: all linear 0.3s;
 }
-.package_item:hover p{
+
+.package_item:hover p {
     color: rgba(255, 255, 255, 0.64);
 }
-.free{
+
+.free {
     color: #192252;
     font-size: 32px;
     font-style: normal;
@@ -762,11 +778,12 @@ Counter End
     line-height: normal;
     transition: all linear 0.3s;
 }
-.package_item:hover .free{
+
+.package_item:hover .free {
     color: #FFFFFF;
 }
 
-.price_amount .price_number{
+.price_amount .price_number {
     color: #192252;
     font-size: 32px;
     font-style: normal;
@@ -774,23 +791,27 @@ Counter End
     line-height: normal;
     transition: all linear 0.3s;
 }
-.package_item:hover .price_number{
+
+.package_item:hover .price_number {
     color: #FFFFFF;
 }
-.package_duration{
+
+.package_duration {
     color: #848FAC;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
-.plan_main{
+
+.plan_main {
     background-color: #F7F7F7;
     border-radius: 16px;
     padding: 52px 48px 69px 52px;
     width: 525px;
 }
-.plan_button .button_left{
+
+.plan_button .button_left {
     border-radius: 22px;
     background: #FFF;
     padding: 12px 16px;
@@ -802,7 +823,8 @@ Counter End
     line-height: normal;
     width: 91px;
 }
-.plan_button .button_right{
+
+.plan_button .button_right {
     border-radius: 22px;
     background-color: #FC9770;
     padding: 12px 16px;
@@ -814,19 +836,22 @@ Counter End
     line-height: normal;
     width: 91px;
 }
-.plan_main ul li{
+
+.plan_main ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 53px;
 }
-.plan_main ul li span{
+
+.plan_main ul li span {
     color: #192252;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
+
 /* ==================pricing end here==============*/
 /* ============
 Contact Start
@@ -910,35 +935,42 @@ Contact Start
     color: var(--color1);
 }
 
-#contact .contact-box{
+#contact .contact-box {
     width: 600px;
     border-radius: 24px;
     background: rgba(255, 255, 255, 0.12);
     padding: 64px 80px;
 }
-#contact .contact-box img{
+
+#contact .contact-box img {
     width: 68px;
 }
-#contact .contact-box h3{
+
+#contact .contact-box h3 {
     color: var(--color5);
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
     margin: 24px 0 48px;
 }
-#contact .contact-box form{
+
+#contact .contact-box form {
     gap: 24px;
 }
-#contact .contact-box form .input-group{
+
+#contact .contact-box form .input-group {
     gap: 16px;
 }
-#contact .contact-box form .input-group label{
+
+#contact .contact-box form .input-group label {
     color: var(--color5);
     font-size: 18px;
     font-weight: 600;
     line-height: 1.5em;
 }
-#contact .contact-box form .input-group input, #contact .contact-box form .input-group textarea{
+
+#contact .contact-box form .input-group input,
+#contact .contact-box form .input-group textarea {
     border-radius: 8px;
     background: #FFF;
     padding: 14px 10px 14px 24px;
@@ -948,13 +980,16 @@ Contact Start
     line-height: 1.5em;
     border: none;
 }
-#contact .contact-box form .input-group input::placeholder, #contact .contact-box form .input-group textarea::placeholder{
+
+#contact .contact-box form .input-group input::placeholder,
+#contact .contact-box form .input-group textarea::placeholder {
     color: var(--color4);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
 }
-#contact .contact-box form button[type="submit"]{
+
+#contact .contact-box form button[type="submit"] {
     color: var(--color5);
     font-size: 18px;
     font-weight: 700;
@@ -966,27 +1001,111 @@ Contact Start
     margin-top: 24px;
     border: none;
 }
-#contact .contact-box form button[type="submit"]:hover{
+
+#contact .contact-box form button[type="submit"]:hover {
     background: #e9835b;
 }
-#contact .contact-box form div:last-child{
+
+#contact .contact-box form div:last-child {
     color: rgba(255, 255, 255, 0.64);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5em;
     gap: 8px;
 }
-#contact .contact-box form div:last-child a.btn{
+
+#contact .contact-box form div:last-child a.btn {
     color: var(--color5);
     font-size: 14px;
     font-weight: 600;
     line-height: 1.5em;
     text-transform: capitalize;
 }
+
 /* ============
 Contact End
 ============ */
 
+/* ----Footer Section---- */
+footer {
+    padding: 100px 0 32px 0;
+    background: #201353;
+}
 
+footer .description {
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.64);
+    line-height: 27px;
+    width: 332px;
+}
 
+footer .main-wrapper {
+    display: flex;
+    gap: 207px;
+}
 
+.footer-wrapper {
+    display: flex;
+    gap: 95px;
+}
+
+.footer-wrapper .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-wrapper .wrapper a {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-wrapper h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+footer hr {
+    margin-top: 64px;
+    border: 1px solid #515151;
+    margin-bottom: 32px;
+}
+
+footer .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .icons p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+}
+
+footer .icons-wrapper {
+    display: flex;
+    gap: 16px;
+}
+
+footer .icons-wrapper a {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CAC0F3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+footer .icons-wrapper a i {
+    color: #fff;
+}
