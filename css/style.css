@@ -427,16 +427,18 @@ Counter End
 ============ */
 
 /* =================feature start here============= */
-#feature{
+#feature {
     padding: 100px 0;
     background-color: #201353;
     position: relative;
 }
-.feature_heading{
+
+.feature_heading {
     display: flex;
     justify-content: space-between;
 }
-.feature_heading h2{
+
+.feature_heading h2 {
     width: 514px;
     color: #FFF;
     font-size: 52px;
@@ -444,7 +446,8 @@ Counter End
     font-weight: 700;
     line-height: normal;
 }
-.feature_heading p{
+
+.feature_heading p {
     width: 555px;
     color: rgba(255, 255, 255, 0.64);
     font-size: 18px;
@@ -453,38 +456,45 @@ Counter End
     line-height: normal;
     margin-top: 18px;
 }
-.feature_main{
+
+.feature_main {
     margin-top: 48px;
 }
-.feature_wrapper{
+
+.feature_wrapper {
     display: flex;
     gap: 24px;
     flex-direction: column;
 }
-.feature_image{
+
+.feature_image {
     position: absolute;
     bottom: -4px;
     right: 12px;
 }
-.transaction{
+
+.transaction {
     width: 368px;
     background-color: #FFF;
     border-radius: 16px;
     padding: 24px;
 }
-.transaction_heading{
+
+.transaction_heading {
     display: flex;
     gap: 12px;
     align-items: center;
 }
-.transaction_heading h4{
+
+.transaction_heading h4 {
     color: #192252;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 150%;  
+    line-height: 150%;
 }
-.transaction p{
+
+.transaction p {
     color: #848FAC;
     font-size: 16px;
     font-style: normal;
@@ -492,14 +502,16 @@ Counter End
     line-height: 150%;
     margin-top: 16px;
 }
-.progress{
+
+.progress {
     margin-top: 24px;
     height: 4px;
     background-color: #EFF3FA;
     position: relative;
     overflow: hidden;
 }
-.progress::after{
+
+.progress::after {
     position: absolute;
     content: "";
     left: 0;
@@ -509,40 +521,46 @@ Counter End
     background-color: #6345D5;
     border-radius: 2px;
 }
-.history{
+
+.history {
     width: 368px;
     border-radius: 16px;
     border: 1.5px solid #2C1A74;
     background-color: #201353;
     padding: 24px;
 }
-.history_heading{
+
+.history_heading {
     display: flex;
     align-items: center;
     gap: 12px;
 }
-.history_heading{
+
+.history_heading {
     color: #FFF;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
 }
-.skeliton1{
+
+.skeliton1 {
     width: 307px;
     height: 16px;
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.30);
     margin-top: 20px;
 }
-.skeliton2{
+
+.skeliton2 {
     width: 287px;
     height: 16px;
     background-color: rgba(255, 255, 255, 0.30);
     margin-top: 10px;
     border-radius: 4px;
 }
-.skeliton3{
+
+.skeliton3 {
     width: 320px;
     height: 4px;
     background-color: rgba(255, 255, 255, 0.30);
@@ -551,3 +569,89 @@ Counter End
 }
 
 /* =================feature end here=============== */
+
+
+/* ----Video Section---- */
+#video {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#video .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#video .video-box {
+    background: #D9D9D9;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.video-box img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.video-details {
+    max-width: 514px;
+}
+
+.video-details .title {
+    font-size: 52px;
+    font-weight: 700;
+    color: #192252;
+    margin-bottom: 24px;
+}
+
+.video-details .description {
+    max-width: 421px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #848FAC;
+    margin-bottom: 40px;
+}
+
+#video .list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#video .list li {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+#video .list span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #192252;
+}
+
+/* ----Company Section---- */
+#company {
+    margin-bottom: 194px;
+}
+
+#company .title {
+    text-align: center;
+    color: #848FAC;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#company .company-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 32px;
+}
