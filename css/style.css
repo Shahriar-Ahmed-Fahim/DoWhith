@@ -655,3 +655,176 @@ Counter End
     justify-content: space-evenly;
     margin-top: 32px;
 }
+
+/* ==================pricing start here=============== */
+#pricing{
+    margin-bottom: 100px;
+}
+.pricing_title{
+    color: #192252;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.pricing_subtitle{
+    color: #848FAC;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-top: 24px;
+}
+.price_wrapper{
+    display: flex;
+    gap: 80px;
+    margin-top: 64px;
+    justify-content: center;
+}
+.package_main{
+    width: 515px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.package_item{
+    padding: 24px;
+    border: 1.5px solid #EFF3FA;
+    border-radius: 16px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    transition: all linear 0.3s;
+}
+.package_item:hover{
+    background-color: #6245D5;
+    border: 1.5px solid #6245D5;
+}
+.package_input{
+    width: 24px;
+    height: 24px;
+}
+.package_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.package_text h4{
+    color: #192252;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+.package_item:hover h4{
+    color: #FFFFFF;
+}
+.package_name{
+    display: flex;
+    gap: 8px;
+}
+.badge{
+    padding: 4px 12px;
+    border-radius: 11px;
+    background-color: rgba(33, 150, 83, 0.08);
+    border: none;
+    color: #219653;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.package_item:hover .badge{
+    color: #FFFFFFCC;
+}
+.package_text p{
+    color: #848FAC;
+    width: 236px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 8px;
+    transition: all linear 0.3s;
+}
+.package_item:hover p{
+    color: rgba(255, 255, 255, 0.64);
+}
+.free{
+    color: #192252;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+.package_item:hover .free{
+    color: #FFFFFF;
+}
+
+.price_amount .price_number{
+    color: #192252;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+.package_item:hover .price_number{
+    color: #FFFFFF;
+}
+.package_duration{
+    color: #848FAC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.plan_main{
+    background-color: #F7F7F7;
+    border-radius: 16px;
+    padding: 52px 48px 69px 52px;
+    width: 525px;
+}
+.plan_button .button_left{
+    border-radius: 22px;
+    background: #FFF;
+    padding: 12px 16px;
+    color: #848FAC;
+    border: 1px solid #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 91px;
+}
+.plan_button .button_right{
+    border-radius: 22px;
+    background-color: #FC9770;
+    padding: 12px 16px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 91px;
+}
+.plan_main ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 53px;
+}
+.plan_main ul li span{
+    color: #192252;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* ==================pricing end here==============*/
