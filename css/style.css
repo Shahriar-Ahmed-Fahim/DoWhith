@@ -828,3 +828,165 @@ Counter End
     line-height: normal;
 }
 /* ==================pricing end here==============*/
+/* ============
+Contact Start
+============ */
+#contact {
+    padding: 100px 0;
+}
+
+#contact .review {
+    width: 489px;
+}
+
+#contact .review p {
+    margin: 24px 0 64px;
+    color: rgba(255, 255, 255, 0.64);
+    line-height: 1.5em;
+}
+
+#contact .review .review-content img {
+    width: 46px;
+}
+
+#contact .review .review-content p {
+    color: var(--color5);
+    font-size: 20px;
+    margin: 48px 0 46px;
+}
+
+#contact .review .review-content .reviewer {
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+    display: inline-block;
+}
+
+#contact .review .reviewer-img {
+    margin-top: 48px;
+    gap: 24px;
+}
+
+#contact .review .reviewer-img .items-wrapper {
+    gap: 24px;
+}
+
+#contact .review .reviewer-img .item {
+    width: 64px;
+    height: 64px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#contact .review .reviewer-img .item:nth-child(2) {
+    opacity: 0.75;
+}
+
+#contact .review .reviewer-img .item:nth-child(3) {
+    opacity: 0.5;
+}
+
+#contact .review .reviewer-img .item:nth-child(4) {
+    opacity: 0.25;
+}
+
+#contact .review .reviewer-img .reviewer-img-navigator {
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: var(--color5);
+    font-size: 20px;
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+    background-color: var(--transparent-color);
+}
+
+#contact .review .reviewer-img .reviewer-img-navigator:hover {
+    border-color: var(--color5);
+    background-color: var(--color5);
+    color: var(--color1);
+}
+
+#contact .contact-box{
+    width: 600px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.12);
+    padding: 64px 80px;
+}
+#contact .contact-box img{
+    width: 68px;
+}
+#contact .contact-box h3{
+    color: var(--color5);
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 24px 0 48px;
+}
+#contact .contact-box form{
+    gap: 24px;
+}
+#contact .contact-box form .input-group{
+    gap: 16px;
+}
+#contact .contact-box form .input-group label{
+    color: var(--color5);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+#contact .contact-box form .input-group input, #contact .contact-box form .input-group textarea{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 14px 10px 14px 24px;
+    color: var(--color4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    border: none;
+}
+#contact .contact-box form .input-group input::placeholder, #contact .contact-box form .input-group textarea::placeholder{
+    color: var(--color4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+#contact .contact-box form button[type="submit"]{
+    color: var(--color5);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.33em;
+    letter-spacing: 0.2px;
+    border-radius: 8px;
+    background: var(--color3);
+    padding: 20px 40px;
+    margin-top: 24px;
+    border: none;
+}
+#contact .contact-box form button[type="submit"]:hover{
+    background: #e9835b;
+}
+#contact .contact-box form div:last-child{
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+    gap: 8px;
+}
+#contact .contact-box form div:last-child a.btn{
+    color: var(--color5);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-transform: capitalize;
+}
+/* ============
+Contact End
+============ */
+
+
+
+
