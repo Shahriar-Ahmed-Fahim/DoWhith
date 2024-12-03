@@ -425,3 +425,129 @@ Counter Start
 /* ============
 Counter End
 ============ */
+
+/* =================feature start here============= */
+#feature{
+    padding: 100px 0;
+    background-color: #201353;
+    position: relative;
+}
+.feature_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.feature_heading h2{
+    width: 514px;
+    color: #FFF;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.feature_heading p{
+    width: 555px;
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 18px;
+}
+.feature_main{
+    margin-top: 48px;
+}
+.feature_wrapper{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.feature_image{
+    position: absolute;
+    bottom: -4px;
+    right: 12px;
+}
+.transaction{
+    width: 368px;
+    background-color: #FFF;
+    border-radius: 16px;
+    padding: 24px;
+}
+.transaction_heading{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.transaction_heading h4{
+    color: #192252;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;  
+}
+.transaction p{
+    color: #848FAC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 16px;
+}
+.progress{
+    margin-top: 24px;
+    height: 4px;
+    background-color: #EFF3FA;
+    position: relative;
+    overflow: hidden;
+}
+.progress::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #6345D5;
+    border-radius: 2px;
+}
+.history{
+    width: 368px;
+    border-radius: 16px;
+    border: 1.5px solid #2C1A74;
+    background-color: #201353;
+    padding: 24px;
+}
+.history_heading{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.history_heading{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+.skeliton1{
+    width: 307px;
+    height: 16px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.30);
+    margin-top: 20px;
+}
+.skeliton2{
+    width: 287px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 0.30);
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.skeliton3{
+    width: 320px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 4px;
+    margin-top: 26px;
+}
+
+/* =================feature end here=============== */
